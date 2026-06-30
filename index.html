@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter Pro</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Currency Converter Pro</h1>
+
+        <input type="number" id="amount" placeholder="Enter Amount">
+
+       <select id="fromCurrency">
+    <option value="USD">🇺🇸 US Dollar (USD)</option>
+    <option value="PKR">🇵🇰 Pakistani Rupee (PKR)</option>
+    <option value="EUR">🇪🇺 Euro (EUR)</option>
+    <option value="GBP">🇬🇧 British Pound (GBP)</option>
+    <option value="AED">🇦🇪 UAE Dirham (AED)</option>
+    <option value="SAR">🇸🇦 Saudi Riyal (SAR)</option>
+    <option value="INR">🇮🇳 Indian Rupee (INR)</option>
+    <option value="CAD">🇨🇦 Canadian Dollar (CAD)</option>
+    <option value="AUD">🇦🇺 Australian Dollar (AUD)</option>
+    <option value="JPY">🇯🇵 Japanese Yen (JPY)</option>
+    <option value="CNY">🇨🇳 Chinese Yuan (CNY)</option>
+</select>
+
+       <button id="swapBtn">⇄</button>
+
+        <select id="toCurrency">
+    <option value="PKR">🇵🇰 Pakistani Rupee (PKR)</option>
+    <option value="USD">🇺🇸 US Dollar (USD)</option>
+    <option value="EUR">🇪🇺 Euro (EUR)</option>
+    <option value="GBP">🇬🇧 British Pound (GBP)</option>
+    <option value="AED">🇦🇪 UAE Dirham (AED)</option>
+    <option value="SAR">🇸🇦 Saudi Riyal (SAR)</option>
+    <option value="INR">🇮🇳 Indian Rupee (INR)</option>
+    <option value="CAD">🇨🇦 Canadian Dollar (CAD)</option>
+    <option value="AUD">🇦🇺 Australian Dollar (AUD)</option>
+    <option value="JPY">🇯🇵 Japanese Yen (JPY)</option>
+    <option value="CNY">🇨🇳 Chinese Yuan (CNY)</option>
+</select>
+
+        <button id="convertBtn">Convert</button>
+
+        <h2 id="result">Converted amount will appear here</h2>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

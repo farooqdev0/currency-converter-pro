@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#0f172a;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    color:white;
+    body{
+    font-family: "Segoe UI Emoji", "Segoe UI", Arial, sans-serif;
+}
+}
+
+.container{
+    width:400px;
+    background:#1e293b;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+input,
+select,
+button{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:none;
+    border-radius:10px;
+}
+
+button{
+    cursor:pointer;
+    font-weight:bold;
+}
+
+#convertBtn{
+    background:#3b82f6;
+    color:white;
+}
+
+#swapBtn{
+    background:#f59e0b;
+}
+
+#result{
+    margin-top:20px;
+    padding:15px;
+    background:#334155;
+    border-radius:10px;
+    font-size:22px;
+    font-weight:bold;
+}
